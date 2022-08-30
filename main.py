@@ -113,7 +113,7 @@ for user_info in data:
         'color': get_random_color()
         }
     
-    res = wm.send_template(user_id, template_id, data,'https://ehre.top')
+    res = wm.send_template(user_id, template_id, data)
     print(res)
     num += 1
 print(num)
